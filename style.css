@@ -156,6 +156,10 @@ nav a img{
     position: relative;
   }
 
+  .active-span{
+    border-bottom: 2px solid darkorange;
+  }
+
   #search-section input{
     width: 100%;
     left:0;

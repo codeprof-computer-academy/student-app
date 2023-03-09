@@ -41,10 +41,21 @@ nav a img{
     
   }
 
-  header .logo{
+  header span{
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+  }
+ 
+  header span img{
     margin-left: 20px;
   }
-
   header .menu{
     margin-right: 20px;
   }
@@ -64,8 +75,7 @@ nav a img{
  
   }
 
- 
-
+ /* usefulClass */
   .slide-in{
     left:0;
   }
@@ -194,8 +204,49 @@ nav a img{
     padding: 20px;
     background-color: whitesmoke;
     overflow-y: scroll;
+    position: relative;
 
   }
+
+  /* .result-display{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    min-height: 100%;
+    background-color: white;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 30px;
+  }
+
+  .result-display img{
+    position: absolute;
+    right:20px;
+    top:20px;
+  }
+  .result-display article{
+    width: 100%;
+    margin-top: 50px;
+    display: none;
+    flex-direction:  column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .result-display article h3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:30px;
+    text-align: left;
+  }
+
+  .result-display article span{
+    text-decoration: left;
+  } */
 
   #dashboard div{
     width: 100%;

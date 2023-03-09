@@ -7,7 +7,7 @@ let courses = [
         course_title: "Electrical Circuit II",
         lecturer:"Prof. Mowete",
         result:79,
-        level:500
+        Remarks:"Good"
 
     },
 
@@ -17,7 +17,7 @@ let courses = [
         course_title: "Digital Electronics",
         lecturer:"Dr Ilori",
         result:82,
-        level:500
+        Remarks:"Very Good"
 
     },
 
@@ -27,7 +27,7 @@ let courses = [
         course_title: "Signal & System",
         lecturer:"Dr Ayomide",
         result:65,
-        level:500
+        Remarks:"Credit"
 
     },
 
@@ -37,7 +37,7 @@ let courses = [
         course_title: "Automatic Signal",
         lecturer:"Dr Adeyemi",
         result:81,
-        level:500
+        Remarks:"Very Good"
 
     },
 ]
@@ -46,6 +46,28 @@ let courses = [
 let menu_btn = document.querySelector('.menu');
 let navbar = document.querySelector('.navbar');
 let main = document.querySelector('main');
+
+
+// search input
+let search_input = document.querySelector('.search-input')
+
+// search button
+let search_btn = document.querySelector('.search-btn')
+
+search_btn.addEventListener('click', (event)=>{
+    event.preventDefault()
+
+   courses.find((course)=>{
+        if(course.course_code === search_input.value){
+            alert("Coming Soon 😊")
+        }
+
+    })
+
+   
+
+
+})
 
 menu_btn.addEventListener('click', (event)=>{
     event.preventDefault();

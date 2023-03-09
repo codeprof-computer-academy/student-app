@@ -54,7 +54,7 @@ nav a img{
     top:50px;
     left:-100%;
     width: 100%;
-    height:fit-content;
+    min-height:50px;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -137,7 +137,7 @@ nav a img{
     box-shadow: 0px 8px 16px rgba(225, 225, 225, 0.09);
   }
 
-  #check-result{
+  #search-section{
     min-height: 20%;
     display: flex;
     justify-content: center;
@@ -146,7 +146,7 @@ nav a img{
     
   }
 
-  #check-result span{
+  #search-section span{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -155,7 +155,7 @@ nav a img{
     position: relative;
   }
 
-  #check-result input{
+  #search-section input{
     width: 100%;
     left:0;
     padding: 10px;
@@ -170,7 +170,7 @@ nav a img{
     
   }
 
-  #check-result img{
+  #search-section img{
      position: absolute;
      right: 20px;
      top:50%;
@@ -179,7 +179,7 @@ nav a img{
 
   }
 
-  #result{
+  #dashboard{
     min-height: 70%;
   }
 

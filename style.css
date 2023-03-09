@@ -16,6 +16,7 @@ body{
   align-items: center;
   position: relative;
 
+
 }
 
 
@@ -36,6 +37,7 @@ nav a img{
     align-items: center;
     z-index: 100;
   
+  
     
   }
 
@@ -50,14 +52,14 @@ nav a img{
   nav{
     position: absolute;
     top:50px;
-    right:-100%;
+    left:-100%;
     width: 100%;
     height:fit-content;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items:flex-start;
-    transition: right .5s ease;
+    transition: left .5s ease;
     
  
   }
@@ -65,7 +67,7 @@ nav a img{
  
 
   .slide-in{
-    right:0;
+    left:0;
   }
 
   nav a{

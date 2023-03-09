@@ -71,6 +71,7 @@ nav a img{
     justify-content: center;
     align-items:flex-start;
     transition: left .5s ease;
+ 
     
  
   }
@@ -114,9 +115,7 @@ nav a img{
  nav a:hover img {
   filter:invert(1);
 }
-  nav .active{
-    background-color: #CCFBFB;
-  }
+  
 
 
 

@@ -57,14 +57,14 @@ let search_btn = document.querySelector('.search-btn')
 search_btn.addEventListener('click', (event)=>{
     event.preventDefault()
 
-   courses.find((course)=>{
-        if(course.course_code === search_input.value){
-            alert("Coming Soon 😊")
-        }
+//    courses.find((course)=>{
+//         if(course.course_code === search_input.value){
+//             alert("Coming Soon 😊")
+//         }
 
-    })
+//     })
 
-   
+alert("Coming Soon 😊")
 
 
 })

@@ -43,6 +43,7 @@ let courses = [
 ]
 
 
+
 // menu btn
 let menu_btn = document.querySelector('.menu');
 let navbar = document.querySelector('.navbar');
@@ -55,7 +56,7 @@ menu_btn.addEventListener('click', (event)=>{
 
 })
 
-// targetting the close btn, result display, search-btn, the search-input-field,.
+// targetting the close btn, result display, search-btn, the search-input-field
 let close_btn = document.querySelector('.close-btn');
 let result_display = document.querySelector('.result-display')
 let search_btn = document.querySelector('.search-btn')
@@ -70,6 +71,13 @@ let remark = document.querySelector('.remark')
 
 
 close_btn.addEventListener('click', ()=>{
+     
+    id.innerHTML = ""
+    code.innerHTML = ""
+    title.innerHTML = ""
+    lecturer.innerHTML = ""
+    result.innerHTML = ""
+    remark.innerHTML = ""
      result_display.style.display = "none"
 })
 
